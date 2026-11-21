@@ -3,10 +3,10 @@ using System.IO;
 
 namespace SmartLostAndFound
 {
-    // =========================================================================
+    //
     // SECTION 1: BASE CLASS (Item)
     // OOP Concepts: Class, Encapsulation, Constructors, Polymorphism (virtual)
-    // =========================================================================
+    // 
     public class Item
     {
         // Private fields (Data Hiding) - yahan data hide hoga "Encapsulation"
