@@ -9,7 +9,7 @@ namespace SmartLostAndFound
     // =========================================================================
     public class Item
     {
-        // Private fields (Data Hiding)
+        // Private fields (Data Hiding) - yahan data hide hoga "Encapsulation"
         private int itemId;
         private string itemName;
         private string category;
@@ -18,7 +18,7 @@ namespace SmartLostAndFound
         private string status;
         private string dateReported;
 
-        // Public Properties with validation
+        // Public Properties with validation          
         public int ItemId
         {
             get { return itemId; }
@@ -121,7 +121,7 @@ namespace SmartLostAndFound
             set { dateReported = value; }
         }
 
-        // Default Constructor
+        //  Constructor ye default hota hai mtlb ye khd banta hai
         public Item()
         {
             ItemId = 1;
@@ -145,7 +145,7 @@ namespace SmartLostAndFound
             DateReported = DateTime.Now.ToShortDateString();
         }
 
-        // Virtual Methods for Runtime Polymorphism
+        // Virtual Methods for Runtime Polymorphism - Polymorphism wala step
         public virtual string GetItemType()
         {
             return "GENERAL";
@@ -158,7 +158,7 @@ namespace SmartLostAndFound
 
         public virtual void DisplayFullDetails()
         {
-            Console.WriteLine("==================================================");
+            Console.WriteLine("...........................");
             Console.WriteLine("Item ID       : " + ItemId);
             Console.WriteLine("Type          : " + GetItemType());
             Console.WriteLine("Item Name     : " + ItemName);
@@ -176,10 +176,8 @@ namespace SmartLostAndFound
         }
     }
 
-    // =========================================================================
     // SECTION 2: CHILD CLASS 1 (LostItem)
     // OOP Concepts: Inheritance (: Item), Constructor Chaining (: base), Overriding
-    // =========================================================================
     public class LostItem : Item
     {
         private string ownerName;
@@ -278,7 +276,7 @@ namespace SmartLostAndFound
             Console.WriteLine("Owner Phone   : " + OwnerPhone);
             Console.WriteLine("Owner Email   : " + OwnerEmail);
             Console.WriteLine("Reward Offered: Rs. " + RewardOffered);
-            Console.WriteLine("==================================================");
+            Console.WriteLine("..........");
         }
 
         public override string ToFileLine()
@@ -286,11 +284,8 @@ namespace SmartLostAndFound
             return base.ToFileLine() + "|" + OwnerName + "|" + OwnerPhone + "|" + OwnerEmail + "|" + RewardOffered;
         }
     }
-
-    // =========================================================================
     // SECTION 3: CHILD CLASS 2 (FoundItem)
     // OOP Concepts: Inheritance (: Item), Polymorphism (override)
-    // =========================================================================
     public class FoundItem : Item
     {
         private string finderName;
@@ -388,7 +383,7 @@ namespace SmartLostAndFound
             Console.WriteLine("Finder Phone  : " + FinderPhone);
             Console.WriteLine("Storage Desk  : " + StorageDesk);
             Console.WriteLine("Verify Hint   : " + VerificationHint);
-            Console.WriteLine("==================================================");
+            Console.WriteLine(".................................");
         }
 
         public override string ToFileLine()
@@ -397,10 +392,9 @@ namespace SmartLostAndFound
         }
     }
 
-    // =========================================================================
     // SECTION 4: USER & ADMIN HIERARCHY
     // OOP Concepts: Secondary Inheritance Tree & Role-Based Access
-    // =========================================================================
+
     public class User
     {
         private string userName;
@@ -475,10 +469,10 @@ namespace SmartLostAndFound
         }
     }
     
-    // =========================================================================
+
     // SECTION 5: INPUT VALIDATOR (Helper Class)
     // Purpose: Safely reads strings, integers, doubles, and choices without crashes
-    // =========================================================================
+
     public class InputValidator
     {
         public static string ReadNonEmptyString(string prompt)
@@ -584,10 +578,8 @@ namespace SmartLostAndFound
         }
     }
 
-    // =========================================================================
     // SECTION 6: FILE MANAGER (Persistence Layer)
     // Purpose: Saves and loads all Lost & Found records to/from a text file
-    // =========================================================================
     public class FileManager
     {
         private string filePath;
@@ -696,11 +688,8 @@ namespace SmartLostAndFound
             return loadedCount;
         }
     }
-
-    // =========================================================================
     // SECTION 7: REPORT GENERATOR & SMART AUTO-MATCHER
     // Purpose: Generates system analytics and suggests matching lost/found items
-    // =========================================================================
     public class ReportGenerator
     {
         public static void ShowSystemStatistics(Item[] records, int count)
@@ -739,16 +728,16 @@ namespace SmartLostAndFound
                 recoveryRate = ((double)recoveredCount / count) * 100;
             }
 
-            Console.WriteLine("\n==================================================");
+            Console.WriteLine("\n.................................................");
             Console.WriteLine("          CAMPUS LOST & FOUND ANALYTICS           ");
-            Console.WriteLine("==================================================");
+            Console.WriteLine(".................................................");
             Console.WriteLine("Total Records Logged : " + count);
             Console.WriteLine("Total Lost Reports   : " + totalLost);
             Console.WriteLine("Total Found Reports  : " + totalFound);
             Console.WriteLine("Items Recovered      : " + recoveredCount);
             Console.WriteLine("Still Pending        : " + pendingCount);
             Console.WriteLine("Recovery Rate        : " + Math.Round(recoveryRate, 2) + "%");
-            Console.WriteLine("==================================================");
+            Console.WriteLine(".................................................");
         }
 
         // Smart Feature: Checks if a newly reported item matches existing opposite records
@@ -791,10 +780,8 @@ namespace SmartLostAndFound
         }
     }
 
-    // =========================================================================
     // SECTION 8: MAIN CONTROLLER CLASS (Program)
     // Purpose: Controls menus, user sessions, search filters, and status updates
-    // =========================================================================
     public class Program
     {
         static Item[] records = new Item[200];
@@ -830,9 +817,9 @@ namespace SmartLostAndFound
 
         static void SetupUserSession()
         {
-            Console.WriteLine("==================================================");
+            Console.WriteLine(".................................................");
             Console.WriteLine("     SMART LOST & FOUND MANAGEMENT SYSTEM         ");
-            Console.WriteLine("==================================================");
+            Console.WriteLine(".................................................");
             Console.WriteLine("Select Login Mode:");
             Console.WriteLine("  1. Student / Staff User");
             Console.WriteLine("  2. System Administrator (Requires PIN)");
