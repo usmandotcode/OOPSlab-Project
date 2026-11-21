@@ -1,0 +1,14 @@
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/bin/Debug/net10.0/OOPsLabProject
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/bin/Debug/net10.0/OOPsLabProject.deps.json
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/bin/Debug/net10.0/OOPsLabProject.runtimeconfig.json
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/bin/Debug/net10.0/OOPsLabProject.dll
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/bin/Debug/net10.0/OOPsLabProject.pdb
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/OOPsLabProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/OOPsLabProject.AssemblyInfoInputs.cache
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/OOPsLabProject.AssemblyInfo.cs
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/OOPsLabProject.csproj.CoreCompileInputs.cache
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/OOPsLabProject.dll
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/refint/OOPsLabProject.dll
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/OOPsLabProject.pdb
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/OOPsLabProject.genruntimeconfig.cache
+/home/arch/Documents/Books2ndSem/OOPSlab/OOPsLabProject/OOPsLabProject/obj/Debug/net10.0/ref/OOPsLabProject.dll

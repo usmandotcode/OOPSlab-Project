@@ -1,0 +1,3 @@
+LOST|101|Black Leather Wallet|Documents/ID|Main Cafeteria|Contains university ID and cash|Pending|11/16/2026|Ali Raza|0300-1234567|ali@uni.edu|1000
+FOUND|102|HP Laptop Charger|Electronics|CS Lab 3|65W black pin charger|Pending|11/16/2026|Sara Khan|0321-9876543|CS Department Desk|Check serial sticker
+LOST|103|Scientific Calculator|Books/Stationery|Library 2nd Floor|Casio fx-991ES Plus|Pending|11/16/2026|Bilal Ahmed|0333-4567890|bilal@uni.edu|0
